@@ -1,0 +1,55 @@
+		::Notes on Ruby with Rails class::
+		
+		04/03/17
+Convention over configurationu
+DRY concept = Dont Repeat Yourself (coding stantard) 
+
+		http codes (from client to server) ** restful design **
+		
+get   	= get items from server
+post		= create something
+patch		= update something
+put			= replace something
+delete	= remove something
+
+	04/05/17
+irb = interactive ruby enviorment  (at the command prompt)
+classes and objects=(instances of classes)
+
+	04/10/17
+Branching logic, conditional statements, conditional logic. 2 new data types Boolean and Array.
+Boolean is a true or false value.
+== is logical equal.
+!= is logical not equal.
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to
+&& and
+|| or
+?: ternary operator  EX: temp == 50 ? (puts "its 50") : (puts "its not 50")
+
+if
+elsif
+else
+end
+
+string interpolation: "#{any non string}" becomes a string. Must be double quotes aroung string.
+
+for x in 1..50
+	puts x
+end
+.. is full range, ... cuts off last number.
+
+x=0
+while x <= 10
+	puts x
+	x+=1
+end
+
+ruby-doc.org for info on Ruby.
+
+.downcase = lower cases whatever you input.
+.upcase = Capitilizes input.
+
+Git
